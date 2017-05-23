@@ -2,7 +2,6 @@
 FileInfoApp - its an OS X application, implemented as example how can be created, installed and used by XPC HelperTool for main UI application.
 In other words, it's daemon based application example, when all calculations and heavy tasks working in daemon and UI application works without any freezes, crashes, etc.
 
-https://img.shields.io/badge/Platform-OS%20X-lightgrey.svg
 [![Platform](https://img.shields.io/badge/Platform-OS%20X-lightgrey.svg)]
 
 ## Conditions for run:
@@ -72,6 +71,3 @@ If you want to re-use some code (keep mind the License), here is steps what are 
 
 ### One more thing.
 Project was created using Xcode 8.2 - so storyboard won't compiled and also opened by Xcode with less version.
-
-Let me know if you have some questions.
-mail:  alexua.ost@gmail.com
