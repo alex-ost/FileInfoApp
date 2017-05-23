@@ -36,7 +36,7 @@ For uninstall use “Uninstall.sh” script.
 
 
 *** Conditions for re-use:
-1)	 ID: Change "com.alexost.fileinfoapp.FileProcessorTool" in all files to you HelperTool name:
+1) ID: Change "com.alexost.fileinfoapp.FileProcessorTool" in all files to you HelperTool name:
 	- FPToolDefines.m
 	- FileProcessorTool-Info.plist
 	- FileProcessorTool-Launchd.plist
@@ -45,17 +45,16 @@ For uninstall use “Uninstall.sh” script.
 	- Info.plist (FileInfoApp)
 	- FileProcessorTool.xcodeproj -> bundle identifier.
 1.1) Optional: Change Product Names.
-2)   Build (not run!) FileInfoApp target - app (product) needed for step #3.1
-3)	 Sign: Select your team and check your MacOS Developer certificate it should be downloaded and valid.
-3.1) Sign: User example #2 from "SMJobBlessUtil.txt" for code sign fixing.
-4)   Clean and Run.
+2) Build (not run!) FileInfoApp target - app (product) needed for step #3.1
+3) Sign: Select your team and check your MacOS Developer certificate it should be downloaded and valid.
+3.1) Sign: Use example #2 from "SMJobBlessUtil.txt" for code sign fixing.
+4) Clean and Run.
 
 
 *** One more thing.
 Project was created using Xcode 8.2 - so storyboard won't compiled and also opened by Xcode with less version.
 
 Let me know if you have some questions.
-mail:  alexua.ost@gmail.com
-skype: craferon77
+mail:	alexua.ost@gmail.com
 
 Alex Ostrynskyi
