@@ -6,10 +6,10 @@ In other words, it's daemon based application example, when all calculations and
 
 ## Conditions for run:
 It's condition from apple - App and HelperTool should be signed.
-1)   Build (not run!) FileInfoApp target - app (product) needed for step #2.1
-2)	 Sign: Select your team and check your MacOS Developer certificate it should be downloaded and valid.
-2.1) Sign: Use example #2 from "SMJobBlessUtil.txt" for code sign fixing.
-3)   Clean and Run.
+1) Build (not run!) FileInfoApp target - app (product) needed for step #3
+2) Sign: Select your team and check your MacOS Developer certificate it should be downloaded and valid.
+3) Sign: Use example #2 from "SMJobBlessUtil.txt" for code sign fixing.
+4) Clean and Run.
 
 Why it needed?
 Project will be buildable anyway, but our app won't connected to HelperTool, because codeSign conditions won't incorrect.
@@ -62,12 +62,11 @@ If you want to re-use some code (keep mind the License), here is steps what are 
 	- README.txt
 	- Info.plist (FileInfoApp)
 	- FileProcessorTool.xcodeproj -> bundle identifier.
-1.1) Optional: Change Product Names.
-// Re-sign the app.
-2)   Build (not run!) FileInfoApp target - app (product) needed for step #3.1
-3)	 Sign: Select your team and check your MacOS Developer certificate it should be downloaded and valid.
-3.1) Sign: User example #2 from "SMJobBlessUtil.txt" for code sign fixing.
-4)   Clean and Run.
+2) Optional: Change Product Names.
+3) Build (not run!) FileInfoApp target - app (product) needed for step #5
+4) Sign: Select your team and check your MacOS Developer certificate it should be downloaded and valid.
+5) Sign: Use example #2 from "SMJobBlessUtil.txt" for code sign fixing.
+6) Clean and Run.
 
 ### One more thing.
 Project was created using Xcode 8.2 - so storyboard won't compiled and also opened by Xcode with less version.
