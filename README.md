@@ -70,3 +70,5 @@ If you want to re-use some code (keep mind the License), here is steps what are 
 
 ### One more thing.
 Project was created using Xcode 8.2 - so storyboard won't compiled and also opened by Xcode with less version.
+
+If my example helped or you have some questionsm pleasem let me know: alexua.ost@gmail.com
