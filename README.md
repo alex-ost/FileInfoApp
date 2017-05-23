@@ -2,7 +2,7 @@
 FileInfoApp - its an OS X application, implemented as example how can be created, installed and used by XPC HelperTool for main UI application.
 In other words, it's daemon based application example, when all calculations and heavy tasks working in daemon and UI application works without any freezes, crashes, etc.
 
-[![Platform](https://img.shields.io/badge/Platform-OS%20X-lightgrey.svg)]
+![Platform](https://img.shields.io/badge/Platform-OS%20X-lightgrey.svg)
 
 ## Conditions for run:
 It's condition from apple - App and HelperTool should be signed.
