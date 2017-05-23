@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:Docs"
+      name = "Docs">
+      <FileRef
+         location = "group:ABOUT.txt">
+      </FileRef>
+      <FileRef
+         location = "group:README.txt">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:Utils"
+      name = "Utils">
+      <FileRef
+         location = "group:Uninstall.sh">
+      </FileRef>
+      <FileRef
+         location = "group:SMJobBlessUtil.py">
+      </FileRef>
+      <FileRef
+         location = "group:SMJobBlessUtil.txt">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:Application/FileInfoApp.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:FileProcessor/FileProcessorTool.xcodeproj">
+   </FileRef>
+</Workspace>

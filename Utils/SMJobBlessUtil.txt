@@ -1,0 +1,20 @@
+SMJobBlessUtil.py
+Big tool, but I used it for codeSign check and fix.
+
+#1 For check:
+$ cd ~/Downloads/SMJobBless
+$ ./SMJobBlessUtil.py check /path/to/your.app
+
+
+#2 For sign fixing:
+$ cd ~/Downloads/SMJobBless
+$ ./SMJobBlessUtil.py setreq \
+    build/Debug/SMJobBlessApp.app \
+    SMJobBlessApp/SMJobBlessApp-Info.plist \
+    SMJobBlessHelper/SMJobBlessHelper-Info.plist
+
+Example:
+./SMJobBlessUtil.py setreq /Users/alexandr/Library/Developer/Xcode/DerivedData/FileInfoApp-arpmqcnburgnmafoarxmhudqiatn/Build/Products/Debug/FileInfoApp.app /Users/alexandr/Documents/Projects/FileInfoApp/Application/FileInfoApp/Resources/Info.plist /Users/alexandr/Documents/Projects/FileInfoApp/FileProcessor/FileProcessor/Resources/FileProcessorTool-Info.plist
+
+
+Discussion link: https://github.com/atnan/SMJobBlessXPC/issues/7
